@@ -1,0 +1,167 @@
+$date today $end
+$timescale 1 ns $end
+$scope module top $end
+$var wire 1 0 w_mipi_rx_hs $end
+$var wire 1 1 w_mipi_rx_vs $end
+$var wire 1 2 w_mipi_rx_de $end
+$var wire 64 3 w_mipi_rx_data $end
+$var wire 8 4 inst_efx_csi2_rx/u_efx_csi2_rx/dphy_rx_inst/Rx_HS_D_0 $end
+$var wire 8 5 inst_efx_csi2_rx/u_efx_csi2_rx/dphy_rx_inst/Rx_HS_D_3 $end
+$var wire 8 6 inst_efx_csi2_rx/u_efx_csi2_rx/dphy_rx_inst/Rx_HS_D_2 $end
+$var wire 8 7 inst_efx_csi2_rx/u_efx_csi2_rx/dphy_rx_inst/Rx_HS_D_1 $end
+$var wire 8 8 inst_efx_csi2_rx/u_efx_csi2_rx/dphy_rx_inst/RxDataHS_1 $end
+$var wire 8 9 inst_efx_csi2_rx/u_efx_csi2_rx/dphy_rx_inst/RxDataHS_0 $end
+$var wire 8 a inst_efx_csi2_rx/u_efx_csi2_rx/dphy_rx_inst/RxDataHS_3 $end
+$var wire 8 b inst_efx_csi2_rx/u_efx_csi2_rx/dphy_rx_inst/RxDataHS_2 $end
+$var wire 4 c inst_efx_csi2_rx/u_efx_csi2_rx/dphy_rx_inst/RxSyncHS $end
+$var wire 4 d inst_efx_csi2_rx/u_efx_csi2_rx/dphy_rx_inst/RxValidHS $end
+$var wire 1 e mdebug_ecc_2bit_error $end
+$var wire 1 f mdebug_pixel_fifo_full $end
+$var wire 1 10 mdebug_ecc_1bit_error $end
+$var wire 1 11 mdebug_crc_error $end
+$var wire 1 12 mdebug_receive_error $end
+$var wire 1 13 mdebug_line_vc0_error $end
+$var wire 1 14 mdebug_frame_vc0_error $end
+$var wire 1 15 mdebug_undersize_pkt_error $end
+$var wire 1 16 mdebug_pixel_fifo_empty $end
+$var wire 1 17 cam_d0_LP_N_IN $end
+$var wire 1 18 cam_d0_LP_P_IN $end
+$var wire 1 19 cam_d1_HS_ENA $end
+$var wire 1 1a cam_d0_HS_TERM $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x0
+x1
+x2
+bx 3
+bx 4
+bx 5
+bx 6
+bx 7
+bx 8
+bx 9
+bx a
+bx b
+bx c
+bx d
+xe
+xf
+x10
+x11
+x12
+x13
+x14
+x15
+x16
+x17
+x18
+x19
+x1a
+$end
+#0 $dumpon
+00
+01
+02
+b0000000000000000000000000000000000000000000000000000000000000000 3
+b00000000 4
+b00000000 5
+b00000000 6
+b00000000 7
+b00111111 8
+b00111111 9
+b00111111 a
+b00111111 b
+b0000 c
+b0000 d
+0e
+0f
+010
+011
+012
+013
+014
+015
+016
+117
+118
+019
+01a
+#995
+018
+#999
+017
+#1002
+11a
+#1007
+119
+#1021
+b10000000 4
+b10000000 5
+b10000000 6
+b10000000 7
+#1022
+b00001011 4
+b11011011 5
+b01001011 6
+b01011011 7
+#1023
+b11110000 4
+b11110010 5
+b11110000 6
+b00001101 7
+#1024
+117
+118
+#1025
+b11111111 4
+b11111111 5
+b11111111 6
+b00000000 7
+#1026
+019
+01a
+#1030
+b01111111 5
+b11000000 7
+#1031
+b00000000 5
+b11111111 7
+#1032
+b00000001 4
+b00000001 6
+b00000001 7
+#1034
+b00000000 4
+b00000000 6
+b00000000 7
+#2047
+00
+01
+02
+b0000000000000000000000000000000000000000000000000000000000000000 3
+b00000000 4
+b00000000 5
+b00000000 6
+b00000000 7
+b00111111 8
+b00111111 9
+b00111111 a
+b00111111 b
+b0000 c
+b0000 d
+0e
+0f
+010
+011
+012
+013
+014
+015
+016
+117
+118
+019
+01a
+$end
